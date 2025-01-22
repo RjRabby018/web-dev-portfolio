@@ -133,3 +133,19 @@ main section{
 .section_title{
     text-align: center;
 }
+/* resume section styles */
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.experience_sub_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience_description, .experience_sub_title{
+    color: #757575;
+}
+.resume_download_cv{
+    margin-top: 50px;
+}
