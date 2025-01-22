@@ -25,6 +25,20 @@
     border-radius: 5px;
     
 }
+.section_title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #181818;
+}
+.section_description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #757575;
+}
+.secondary_background{
+    background-color: #FFF8F3;
+}
+/* header styles */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -32,7 +46,7 @@
     
 }
 
-/* header styles */
+
 /*nav styles */
 nav{
     display: flex;
@@ -82,4 +96,23 @@ nav ul{
 }
 .banner_profile_pic{
     width: 470px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about_items{
+    display:flex;
+    justify-content: space-around;
+}
+.item_description{
+    font-weight: 800;
 }
